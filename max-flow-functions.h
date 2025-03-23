@@ -1,0 +1,2 @@
+int edmondsKarp(std::unordered_map<std::string, std::vector<std::pair<std::string, int>>>);
+bool baseballElimination(std::vector<std::string>, std::vector<int>, std::vector<std::vector<int>>, std::string);
