@@ -2,7 +2,7 @@
 
 ## Running the Code
 ```
-g++ edmonds-karp.cpp baseball-elimination.cpp max-flow-test.cpp -Wall -Werror -o max-flow-test
+g++ edmonds-karp.cpp baseball-elimination.cpp max-flow-test.cpp -Wall -Werror -fsanitize=address -o max-flow-test
 ./max-flow-test
 ```
 

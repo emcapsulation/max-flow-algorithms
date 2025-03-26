@@ -13,8 +13,7 @@ int main() {
 		{"sink", {}}
 	};
 	int ans = edmondsKarp(nodes);
-	std::cout << ans << std::endl;
-	std::cout << "\n\n\n\n\n";
+	std::cout << ans << '\n' << std::endl;
 
 	nodes = {
 		{"source", {{"1", 12}, {"2", 5}, {"3", 4}}},
@@ -25,8 +24,7 @@ int main() {
 		{"sink", {}}
 	};
 	ans = edmondsKarp(nodes);
-	std::cout << ans << std::endl;
-	std::cout << "\n\n\n\n\n";
+	std::cout << ans << '\n' << std::endl;
 
 	nodes = {
 		{"source", {{"1", 4}, {"2", 4}}},
@@ -39,8 +37,7 @@ int main() {
 		{"sink", {}}
 	};
 	ans = edmondsKarp(nodes);
-	std::cout << ans << std::endl;
-	std::cout << "\n\n\n\n\n";
+	std::cout << ans << '\n' << std::endl;
 	
 
 	// Baseball Elimination
@@ -50,6 +47,7 @@ int main() {
 		{{0, 3, 1, 0}, {3, 0, 0, 1}, {1, 0, 0, 1}, {0, 1, 1, 0}},
 		"diamond"
 	);
+	std::cout << ans2 << '\n' << std::endl;
 
 	ans2 = baseballElimination(
 		{"square", "pentagon", "triangle", "diamond"}, 
@@ -57,6 +55,7 @@ int main() {
 		{{0, 3, 2, 1}, {3, 0, 4, 0}, {2, 4, 0, 3}, {1, 0, 3, 0}},
 		"diamond"
 	);
+	std::cout << ans2 << '\n' << std::endl;
 
 	ans2 = baseballElimination(
 		{"square", "pentagon", "triangle", "diamond", "hexagon"}, 
@@ -64,7 +63,7 @@ int main() {
 		{{0, 2, 1, 1, 1}, {2, 0, 2, 1, 1}, {1, 2, 0, 1, 2}, {1, 1, 1, 0, 2}, {1, 1, 2, 2, 0}},
 		"diamond"
 	);
-	std::cout << ans2 << std::endl;
+	std::cout << ans2 << '\n' << std::endl;
 
 	return 0;
 }
