@@ -1,5 +1,14 @@
 # The Max Flow Problem
 
+## Introduction
+This repo contains the code for computing the maximum flow of a flow network using the Edmonds-Karp implementation of Ford-Fulkerson. It also has an application of the max flow problem called "The Baseball Elimination Problem".
+
+I have made videos on these topics on my YouTube channel!
+* Ford-Fulkerson and Edmonds-Karp: Finding the Maximum Flow
+https://www.youtube.com/watch?v=0wMs9SCHL10
+* Baseball Elimination Problem - How to Prove a Team is Eliminated with Max Flow
+https://www.youtube.com/watch?v=vYFHNGGOlKE
+
 ## Running the Code
 ```
 g++ edmonds-karp.cpp baseball-elimination.cpp max-flow-test.cpp -Wall -Werror -fsanitize=address -o max-flow-test
